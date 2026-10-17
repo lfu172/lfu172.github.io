@@ -306,3 +306,24 @@ img[src="assets/img/data-center-selected.jpg"] { clip-path: inset(1px 0 0 0); }
 @media(max-width:560px) { .research-theme-row .research-thumbnail video { max-width:100px; height:95px; } .research-home-cards .research-thumbnail video { height:160px; } }
 
 .service-heading-icon { display:inline-block; width:.9em; height:.9em; margin-right:.4em; vertical-align:-.08em; color:var(--accent, #285b91); }
+
+/* Coordinated illustrated heading icons, from one transparent 4 x 3 atlas. */
+.heading-art { display:inline-block; width:1.35em; height:1.35em; margin-right:.3em; vertical-align:-.24em; background-image:url("assets/img/academic-icons.webp"); background-size:400% 300%; background-repeat:no-repeat; flex-shrink:0; }
+.profile-links .icon { stroke-width:1.65; }
+.profile-links > li:nth-child(1) .icon { color:#b66b49; }
+.profile-links > li:nth-child(2) .icon { color:#367795; }
+.profile-links > li:nth-child(3) .icon { color:#3567a8; }
+.profile-links > li:nth-child(4) .icon { color:#6b8d3a; }
+.profile-links > li:nth-child(5) .icon { color:#2867a3; }
+.heading-art-0 { background-position:0.000000% 0%; }
+.heading-art-1 { background-position:33.333333% 0%; }
+.heading-art-2 { background-position:66.666667% 0%; }
+.heading-art-3 { background-position:100.000000% 0%; }
+.heading-art-4 { background-position:0.000000% 50%; }
+.heading-art-5 { background-position:33.333333% 50%; }
+.heading-art-6 { background-position:66.666667% 50%; }
+.heading-art-7 { background-position:100.000000% 50%; }
+.heading-art-8 { background-position:0.000000% 100%; }
+.heading-art-9 { background-position:33.333333% 100%; }
+.heading-art-10 { background-position:66.666667% 100%; }
+.heading-art-11 { background-position:100.000000% 100%; }
