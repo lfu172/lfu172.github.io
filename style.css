@@ -304,3 +304,5 @@ img[src="assets/img/data-center-selected.jpg"] { clip-path: inset(1px 0 0 0); }
 .research-home-cards .research-thumbnail video { aspect-ratio:3/2; }
 .research-theme-row .research-thumbnail video { max-width:180px; height:125px; }
 @media(max-width:560px) { .research-theme-row .research-thumbnail video { max-width:100px; height:95px; } .research-home-cards .research-thumbnail video { height:160px; } }
+
+.service-heading-icon { display:inline-block; width:.9em; height:.9em; margin-right:.4em; vertical-align:-.08em; color:var(--accent, #285b91); }
