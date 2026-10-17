@@ -1,0 +1,47 @@
+.cv-print-title { display: none; }
+.cv-preview .profile { display: none; }
+.cv-preview .page-layout { display: block; margin-top: 43px; }
+.cv-preview h1 { margin-bottom: 28px; }
+.cv-viewer { display: block; width: 100%; height: calc(100vh - 125px); min-height: 650px; border-radius: 8px; overflow: hidden; border: 1px solid var(--line); background: var(--wash); }
+.cv-preview .site-footer { margin-top: 24px; }
+.cv-name > p { font-size: 13px; }
+.cv-download { margin-top: 18px; }
+.cv-download a { display: inline-block; padding: 9px 15px; border: 1px solid var(--link); border-radius: 3px; font-weight: 700; }
+.cv-section { margin-top: 27px; font-size: 14px; }
+.cv-section h2 { font-size: 19px; border-bottom: 1px solid var(--line); padding-bottom: 7px; margin-bottom: 13px; }
+.cv-records { padding: 0; list-style: none; }
+.cv-records li { margin-bottom: 11px; }
+.cv-date { float: right; font-size: 12px; color: var(--muted); margin-left: 20px; }
+.cv-publications { padding-left: 22px; }
+.cv-publications li { padding-left: 3px; margin-bottom: 16px; }
+.cv-publications .citation-authors, .cv-publications .citation-title { display: inline; font-size: inherit; font-weight: 400; color: inherit; }
+.cv-publications .citation-venue { font-size: inherit; font-style: italic; }
+.cv-publications .status { font-style: normal; }
+.cv-publications .doi { font-style: normal; }
+.cv-updated { font-size: 12px; color: var(--muted); margin-top: 28px; }
+@media (max-width: 760px) {
+ .cv-date { float: none; display: block; margin: 2px 0; }
+ .cv-section { font-size: 13px; }
+}
+@media print {
+ @page { size: Letter; margin: 15mm 17mm 17mm; }
+ .cv-page { font: 10.5pt/1.25 Georgia, "Times New Roman", serif; color: #111; }
+ .cv-page .site-footer, .cv-screen-title, .cv-download { display: none; }
+ .cv-print-title { display: inline; }
+ .cv-sheet + .cv-sheet { break-before: page; }
+ .cv-name { text-align: center; margin-bottom: 13pt; }
+ .cv-name h1 { font: bold 22pt Georgia, serif; margin: 0 0 6pt; }
+ .cv-name > p { font-size: 9pt; line-height: 1.35; margin: 0; }
+ .cv-section { margin-top: 12pt; font-size: inherit; }
+ .cv-sheet > .cv-section:first-child { margin-top: 0; }
+ .cv-section h2 { font: bold 10.5pt Georgia, serif; text-transform: uppercase; letter-spacing: .035em; padding-bottom: 3pt; margin: 0 0 7pt; border-color: #999; }
+ .cv-section p { margin: 0 0 6pt; }
+ .cv-records { margin: 0; }
+ .cv-records li { margin: 0 0 6pt; break-inside: avoid; }
+ .cv-date { float: right; display: inline; font-size: 9.5pt; color: #333; margin-left: 12pt; }
+ .cv-publications { margin: 0; padding-left: 14pt; }
+ .cv-publications li { margin: 0 0 7pt; padding-left: 2pt; break-inside: avoid; }
+ .cv-publications .doi { display: inline; font-size: 8.5pt; }
+ .cv-publications .status { padding: 0; background: transparent; color: #111; font-size: inherit; font-weight: 400; margin: 0; }
+ .cv-updated { font-size: 9pt; margin-top: 12pt; }
+}
