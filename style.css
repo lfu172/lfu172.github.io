@@ -38,7 +38,7 @@ figcaption a { flex-shrink: 0; }
 .site-header { background: var(--paper); border-bottom: 1px solid var(--line); position: sticky; top: 0; z-index: 20; }
 .header-inner { width: min(1120px, calc(100% - 48px)); margin: auto; display: flex; align-items: center; gap: 58px; min-height: 68px; }
 .site-name { flex: 0 0 194px; font-weight: 700; color: var(--heading); font-size: 18px; }
-.nav-list { display: flex; align-items: center; gap: 28px; margin: 0; padding: 0; list-style: none; }
+.nav-list { display: flex; flex-wrap: wrap; align-items: center; gap: 28px; margin: 0; padding: 0; list-style: none; }
 .nav-list li + li { margin: 0; }
 .nav-list a { display: inline-block; padding: 22px 0 19px; color: var(--muted); font-size: 14px; border-bottom: 2px solid transparent; }
 .nav-list a[aria-current="page"] { color: var(--link); border-color: var(--link); }
